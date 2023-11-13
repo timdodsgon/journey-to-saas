@@ -1,7 +1,4 @@
 # Transitioning from a JSP/Servlet Monolith to AWS Serverless SaaS Platform
-### Authored by Tim Dodgson, Principal Software Engineer
-
----
 
 ## Introduction
 In the ever-evolving realm of software development, the shift from traditional monolithic architectures to more modern serverless paradigms is becoming increasingly prominent. Our journey began with a legacy JSP/Servlet application that, despite its reliability, started showing signs of strain under the demands of contemporary scalability and flexibility. This article chronicles our strategic journey towards AWS Serverless, a path marked by thorough planning, embracing new technologies, and a complete architectural overhaul.
