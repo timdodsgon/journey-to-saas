@@ -1,7 +1,4 @@
 # Transitioning from a JSP/Servlet Monolith to AWS Serverless SaaS Platform
-### Authored by Tim Dodgson, Principal Software Engineer
-
----
 
 ## Introduction
 In the ever-evolving software development landscape, transitioning to modern architectures like AWS Serverless is key for maintaining competitiveness. Our shift from a JSP/Servlet application to an AWS Serverless platform was more than a technological change; it represented a strategic move towards improved scalability, flexibility, and efficiency, in line with the latest industry trends.
@@ -9,7 +6,9 @@ In the ever-evolving software development landscape, transitioning to modern arc
 ---
 
 ## The Monolithic Conundrum
-Initially, our JSP/Servlet-based architecture offered stability but limited our ability to scale and adapt. The tightly interlinked components of this monolithic system hindered our agility, making it clear that a shift to a more modular, dynamic architecture was essential to meet market demands.
+Initially, our JSP/Servlet-based architecture offered stability but was limited in scalability and adaptability. This was particularly evident in our work within the insurance industry, where the architecture was replicated across multiple clients, resulting in a separate repository for each. Managing these numerous client-specific repositories, each with unique regulatory and customization requirements, became increasingly unmanageable in the face of stringent financial regulations.
+
+The complexity and overhead of maintaining these individualized versions highlighted a critical need for change. It became clear that transitioning to a more unified, flexible SaaS (Software as a Service) platform was essential. This shift was not only a technical imperative but also a strategic move to enhance our operational efficiency and responsiveness to market demands. A SaaS model, with its inherent scalability and ability to cater to multiple clients on a single platform, offered a streamlined, efficient solution to the challenges we faced in the highly regulated and dynamic environment of the insurance industry.
 
 ---
 
