@@ -1,4 +1,4 @@
-# Transitioning from a JSP/Servlet Monolith to AWS Serverless SaaS Platform
+# A Journey from Over 50 Template JSP/Servlet-Based Websites to an AWS Serverless SaaS Platform
 
 ## Introduction
 In the ever-evolving software development landscape, transitioning to modern architectures like AWS Serverless is key for maintaining competitiveness. Our shift from a JSP/Servlet application to an AWS Serverless platform was more than a technological change; it represented a strategic move towards improved scalability, flexibility, and efficiency, in line with the latest industry trends.
