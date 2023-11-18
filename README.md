@@ -18,7 +18,9 @@ Choosing AWS Serverless for our new architecture aligned with our goal for great
 ---
 
 ## Blueprinting the Rebuild
-In planning our serverless transition, we focused on setting clear objectives and outlining the desired architecture. We adopted the AWS Well-Architected Framework, ensuring our design adhered to its key pillars: operational excellence, security, reliability, performance efficiency, cost optimization, and sustainability. This framework guided our use of AWS CloudFormation, allowing us to script and manage serverless resources effectively.
+Our serverless transition's planning phase was anchored around setting definitive objectives and delineating the target architecture. A cornerstone of this phase was adopting the AWS Well-Architected Framework, which ensured our design aligned with its critical pillars: operational excellence, security, reliability, performance efficiency, cost optimization, and sustainability. In line with this framework, we chose Terraform over AWS CloudFormation for scripting and managing our serverless resources. Terraform's flexibility and powerful declarative syntax enabled us to build a more efficient and scalable infrastructure.
+
+Central to our architectural design principles was the concept of a one-button deployment. This approach was instrumental in simplifying the deployment process, significantly reducing the time and effort required to launch and update our services. It enabled us to rapidly set up new client environments or update existing ones with minimal manual intervention, aligning with our goals for operational excellence and efficiency.
 
 ---
 
