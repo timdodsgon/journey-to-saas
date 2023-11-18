@@ -42,7 +42,7 @@ Transitioning to a serverless architecture brought:
 - **Performance:** Improved response times.
 - **Cost-Effectiveness:** Operational cost savings.
 - **Cost Tracking:** Enhanced transparency with AWS Tagging.
-- **Acquisition of Talent** Latest tech and practices make filling job roles a breaze
+- **Acquisition of Talent:** Latest tech and practices make filling job roles a breeze.
 
 ## The Path Forward: Iterative Innovation
 Our focus is on continuous innovation, enhancing monitoring with AWS CloudWatch and X-Ray, and refining CI/CD processes, aligning with the AWS Well-Architected Framework's emphasis on operational excellence and reliability.
@@ -57,14 +57,12 @@ Our journey to an AWS serverless SaaS platform exemplifies our commitment to emb
 **Tim Dodgson**
 Principal Software Engineer specializing in serverless solutions.
 
-[LinkedIn Profile](#)
-
 ### Core Technologies
-- **NEXT.js:** Ideal for server-side rendering and hybrid applications.
-- **Open Next:** OpenNext takes the Next.js build output and converts it into a package that can be deployed an AWS serverless platform.
+- **NEXT.js & OpenNext:** For server-side rendering and efficient AWS serverless deployment.
 - **AWS Lambda:** Scalable, event-driven computing.
-- **CloudFront:** Efficient content delivery.
-- **Amazon DynamoDB:** Scalable NoSQL database.
-- **AWS S3:** Reliable static asset storage.
-- **AWS AppConfig:** Key for configuration management.
-
+- **CloudFront & Lambda@Edge:** For optimized content delivery.
+- **Amazon DynamoDB:** Scalable database services.
+- **AWS S3:** Reliable storage for static assets.
+- **AWS AppConfig:** Central to configuration management.
+- **Terraform & GitLab Pipelines:** For effective infrastructure management and CI/CD processes.
+- **Dynatrace & AWS CloudWatch:** Comprehensive monitoring solutions.
