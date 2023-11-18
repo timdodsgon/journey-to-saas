@@ -42,6 +42,7 @@ Transitioning to a serverless architecture brought:
 - **Performance:** Improved response times.
 - **Cost-Effectiveness:** Operational cost savings.
 - **Cost Tracking:** Enhanced transparency with AWS Tagging.
+- **Acquisition of Talent** Latest tech and practices make filling job roles a breaze
 
 ## The Path Forward: Iterative Innovation
 Our focus is on continuous innovation, enhancing monitoring with AWS CloudWatch and X-Ray, and refining CI/CD processes, aligning with the AWS Well-Architected Framework's emphasis on operational excellence and reliability.
@@ -60,6 +61,7 @@ Principal Software Engineer specializing in serverless solutions.
 
 ### Core Technologies
 - **NEXT.js:** Ideal for server-side rendering and hybrid applications.
+- **Open Next:** OpenNext takes the Next.js build output and converts it into a package that can be deployed an AWS serverless platform.
 - **AWS Lambda:** Scalable, event-driven computing.
 - **CloudFront:** Efficient content delivery.
 - **Amazon DynamoDB:** Scalable NoSQL database.
