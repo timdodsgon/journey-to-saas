@@ -15,16 +15,23 @@ The cornerstone of AWS Serverless architecture is its event-driven operational m
 
 A significant aspect of our AWS Serverless adoption is the integration of Infrastructure as Code (IaC), specifically through Terraform. Unlike AWS CloudFormation and AWS SAM (Serverless Application Model), Terraform offers a more open and flexible approach to IaC, with several key advantages:
 
-Cross-Platform Compatibility: Terraform supports multiple cloud providers, allowing for more diverse and adaptable infrastructure setups.
-Declarative Code: Terraform's declarative syntax enables clear and concise infrastructure definition, making it easier to understand and maintain.
-State Management: Terraform maintains a state file, which is crucial for understanding and managing the current state of the infrastructure in a reliable and efficient manner.
+- **Cross-Platform Compatibility:** Terraform supports multiple cloud providers, allowing for more diverse and adaptable infrastructure setups.
+- **Declarative Code:** Terraform's declarative syntax enables clear and concise infrastructure definition, making it easier to understand and maintain.
+- **State Management:** Terraform maintains a state file, which is crucial for understanding and managing the current state of the infrastructure in a reliable and efficient manner.
+
 Incorporating AWS Lambda functions is a testament to the efficiency of serverless computing. Lambda functions, which execute in response to various triggers, ensure optimal resource utilization, as they are active only when required. This leads to substantial cost savings, aligning with our pay-for-usage financial model and reducing expenses related to idle server capacity.
 
 The seamless integration of serverless services like API Gateway, S3, DynamoDB, and CloudFront with Lambda functions creates a powerful and efficient ecosystem for application development. This ecosystem empowers our teams to build scalable, high-performance, and secure applications, tailor-made for our specific business requirements.
 
 Additionally, the serverless model encourages a microservices-oriented architecture. By breaking down applications into smaller, independently deployable services, we achieve enhanced agility and system resilience. This approach facilitates faster feature rollouts, easier updates, and sturdier systems, aligning with the needs of a fast-paced and evolving digital marketplace.
 
-To sum up, our move to AWS Serverless, facilitated by the strategic use of Terraform for IaC, is more than a technological upgrade. It's a strategic realignment that places agility, efficiency, and innovation at the forefront of our software development practices. This transition positions our infrastructure not just as a support mechanism, but as a dynamic force propelling business growth and adaptability in a digital-first era.
+**Understanding the Trade-offs: Microservices vs. Monolithic Architecture**
+
+While embracing AWS Serverless and a microservices architecture offers numerous advantages like scalability and flexibility, it's crucial to acknowledge and manage the inherent complexities that come with it. These complexities primarily emerge from two key areas:
+
+1. **Service Discovery and Reuse:** In a microservices environment, project teams need efficient mechanisms to discover existing services. These services should be well-documented, with accessible test consoles and other tools that make reuse substantially easier than creating new services from scratch. Effective service discovery and reuse not only optimize resource utilization but also ensure consistency across different parts of the application.
+
+2. **Managing Interdependencies:** Microservices are often interdependent, and this interconnectedness requires careful monitoring. Issues such as service downtimes, outages, or upgrades can have cascading effects across the system. Therefore, it's essential to have robust monitoring and analysis tools in place to proactively identify and mitigate potential impacts of these interdependencies. This aspect of microservices architecture demands a sophisticated level of oversight and coordination to maintain system integrity and performance.
 
 ## Blueprinting the Rebuild
 Our serverless transition's planning phase was anchored around setting definitive objectives and delineating the target architecture. A cornerstone of this phase was adopting the AWS Well-Architected Framework, which ensured our design aligned with its critical pillars: operational excellence, security, reliability, performance efficiency, cost optimization, and sustainability. In line with this framework, we chose Terraform over AWS CloudFormation for scripting and managing our serverless resources. Terraform's flexibility and powerful declarative syntax enabled us to build a more efficient and scalable infrastructure.
