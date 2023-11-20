@@ -3,6 +3,8 @@
 ## Introduction
 In the ever-evolving software development landscape, transitioning to modern architectures like AWS Serverless is key for maintaining competitiveness. Our shift from a JSP/Servlet application to an AWS Serverless platform was more than a technological change; it represented a strategic move towards improved scalability, flexibility, and efficiency, in line with the latest industry trends.
 
+![Monolith to SaaS](AWS-SaaS-vs-Monolith.jpg)
+
 ## The Monolithic Conundrum
 Initially, our JSP/Servlet-based architecture offered stability but was limited in scalability and adaptability. This was particularly evident in our work within the insurance industry, where the architecture was replicated across multiple clients, resulting in a separate repository for each. Managing these numerous client-specific repositories, each with unique regulatory and customization requirements, became increasingly unmanageable in the face of stringent financial regulations.
 
